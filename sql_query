@@ -1,0 +1,1 @@
+select products.name, categories.name from products left outer join categories on products.catId = categories.id
